@@ -6,6 +6,7 @@
     <meta name="author" content="Васютинская Ксения">
     <title>Главная страница</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="colors.css" type="text/css">
 </head>
 
 <body>
@@ -15,16 +16,18 @@
     <h1 align="center">Книжный клуб</h1>
 </div>
 
-<ul class="nav">
-    <li><a href="#">Профиль</a></li>
-    <li><a href="#" target="_self">Новости</a></li>
-    <li><a href="#">Обсуждение</a></li>
-    <li><a href="#">Карта мест</a></li>
-</ul>
+<div class="nav">
+    <ul>
+    <li><a href="#" class="tag">Профиль</a></li>
+    <li><a href="#" target="_self" class="tag">Новости</a></li>
+    <li><a href="#" class="tag">Обсуждение</a></li>
+    <li><a href="#" class="tag">Карта мест</a></li>
+    </ul>
+</div>
 
 <div class="based">
 <main>
-    <div class="based-header">
+    <div class="based-header-color">
     <header><h2 align="center">Новости</h2></header>
     </div>
 
@@ -44,10 +47,11 @@
     </section>
 </main>
 
-<footer>
+<footer class="footer">
+    <img class="img-nav" src="img/kit.jpg" alt="img">
     <h6 align="center">
-        <a href="https://github.com/luck-o-o-luck" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://tlgg.ru/@luck_0_0_luck" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://github.com/luck-o-o-luck" target="_blank" rel="noopener" class="tag">GitHub</a>
+        <a href="https://tlgg.ru/@luck_0_0_luck" target="_blank" rel="noopener" class="tag">Telegram</a>
     </h6>
 </footer>
     </div>
