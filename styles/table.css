@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+}
+
+caption {
+    text-align: center;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+tr.odd{
+    border: 1px solid grey;
+    text-align: center;
+    background: #63412A;/* фон нечетных строк */
+    color: #E3BDA3;
+}
+
+tr.even {
+    border: 1px solid grey;
+    text-align: center;
+    background: #4A301E;/* фон четных строк */
+    color: #E3BDA3;
+}
+
+tr.header-table {
+    border: 1px solid grey;
+    text-align: center;
+    background: #635348;
+    color: #E3BDA3;
+}
+
