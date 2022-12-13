@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+    .img-nav {
+        display: none;
+    }
+
+    .nav {
+        color: #875836;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .nav li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
+    .nav a {
+        text-decoration: none;
+        padding: 20px;
+        margin: 0;
+        outline: none;
+    }
+}

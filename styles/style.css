@@ -17,7 +17,7 @@
     margin-left: 1%;
     flex-direction: column;
     display: flex;
-    align-content: space-around
+    align-content: space-around;
 }
 
 .based {
