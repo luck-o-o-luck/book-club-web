@@ -41,3 +41,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.nav a:hover {
+    color: #57290b;
+}
+
+.active-item {
+    color: #452007;
+}
