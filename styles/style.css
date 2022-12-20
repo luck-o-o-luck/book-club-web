@@ -79,3 +79,15 @@
 .active-item {
     color: #452007;
 }
+
+button {
+
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color: #63412A;
+    color:#E3BDA3;
+    font-weight:600;
+    border-radius:5px;
+}
+

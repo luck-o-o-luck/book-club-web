@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Обсуждение</title>
     <link rel="stylesheet" href="../styles/style.css" type="text/css">
     <link rel="stylesheet" href="../styles/colors.css" type="text/css">
     <link rel="stylesheet" href="../styles/screns.css" type="text/css">
+    <link rel="stylesheet" href="../styles/table.css" type="text/css">
+    <link rel="stylesheet" href="../styles/form.css" type="text/css">
     <script src="../scripts/pageLoad.js"></script>
+    <script src="../scripts/saveBook.js"></script>
+    <script src="../scripts/showBook.js"></script>
 </head>
 <body>
 <div class="nav-other">
@@ -17,6 +21,25 @@
         <li><a href="map.html" target="_self" class="tag">Карта мест</a></li>
     </ul>
 </div>
+
+<table id="book-table">
+    <thead>
+    <tr>
+        <th>Имя</th>
+        <th>Книга</th>
+        <th>Отзыв</th>
+    </tr>
+    </thead>
+</table>
+
+<h1>Вы так же можете отправить отзыв:</h1>
+<form>
+    <input type="text" name="name" class="type-1" id="name" placeholder="Ваше имя" required autocomplete="off"/>
+    <input type="text" name="name" class="type-1" id="book" placeholder="Название книги" required autocomplete="off"/>
+    <textarea name="message" rows="2" class="type-1" id="description" placeholder="Отзыв" required autocomplete="off"></textarea>
+</form>
+<button id="submit" onclick="saveBook()"/> Отправить </button>
+
 <footer class="footer">
     <h6 align="center">
         <a href="https://github.com/luck-o-o-luck" target="_blank" rel="noopener" class="tag">GitHub</a>
