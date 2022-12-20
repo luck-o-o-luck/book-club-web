@@ -49,3 +49,33 @@
 .active-item {
     color: #452007;
 }
+
+.nav-other {
+    color: #875836;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-other li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.nav-other a {
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+    outline: none;
+}
+
+.nav-other a:hover {
+    color: #57290b;
+}
+
+.active-item {
+    color: #452007;
+}
